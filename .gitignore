@@ -1,0 +1,29 @@
+# Maven
+target/
+*.class
+
+# Maven local files
+.mvn/timing.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security scan reports
+reports/
+*.html
+*.json
+*.xml
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
