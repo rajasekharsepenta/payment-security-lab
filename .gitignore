@@ -1,8 +1,7 @@
-# Maven
+# Maven build output
 target/
-*.class
 
-# Maven local files
+# Maven
 .mvn/timing.properties
 
 # IDE
@@ -14,16 +13,13 @@ target/
 .DS_Store
 Thumbs.db
 
-# Security scan reports
+# Security reports
 reports/
-*.html
-*.json
-*.xml
 
 # Logs
 *.log
 
-# Environment/secrets
+# Environment / secrets
 .env
 .env.*
 !.env.example
